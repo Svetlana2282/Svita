@@ -1,20 +1,20 @@
-#include <iostream>
+﻿#include <iostream>
 #include "windows.h"
 using namespace std;
 
-int main() 
+int main()
 {
 	SetConsoleCP(1251);
 	SetConsoleOutputCP(1251);
 
 	int x;
 	cout << "Введіть латинську букву\n";
-	cin >> x; //кометар
-	switch (x) 
+	cin >> x;
+	switch (x)
 	{
-	case 'a':
-	case 'o':
-	case 'e': //коментар номер 2
+	case 'a':// коментарий второй
+	case 'o': //comm
+	case 'e':
 	case 'i':
 	case 'u':
 	case 'y':
